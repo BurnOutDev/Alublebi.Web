@@ -1,4 +1,6 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(bpg-nateli-mtavruli.min.css);
+@import url(bpg-nateli.min.css);
 
 html,
 body {
@@ -7,7 +9,7 @@ body {
 }
 
 body {
-    font-family: 'Montserrat','Helvetica Neue',Arial,sans-serif;
+    font-family: 'BPG Nateli', sans-serif;
     color: #001A33;
     webkit-tap-highlight-color: #222;
     top: 0;
@@ -149,7 +151,7 @@ footer {
 
 .navbar .navbar-nav > li > a,
 .navbar .navbar-nav > li > a:focus {
-    font-size: 12px;
+    font-size: 18px;
     color: #001A33;
     text-transform: uppercase;
 }
@@ -207,7 +209,7 @@ footer {
         }
 
     #topNav {
-        background-color: #fff;
+        background-color: transparent; /* Navbar */
     }
 }
 
@@ -218,6 +220,7 @@ header {
     color: #001A33;
     width: 100%;
     background-color: #fff;
+    max-height: 80%;
 }
 
     header .header-content {
@@ -246,7 +249,7 @@ header {
     }
 
     header {
-        min-height: 100%;
+        min-height: 80%;
     }
 
         header .header-content {
@@ -340,4 +343,63 @@ img::selection {
 img::-moz-selection {
     color: #fff;
     background: 0 0;
+}
+
+.navbar-brand {
+    background-color: black;
+    background: url(Images/Logos/Logo.svg);
+    /*background: black;*/
+    color: transparent !important;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 40px;
+}
+
+#collapsingNavbar {
+    margin-left: 30px;
+}
+
+#topNav {
+}
+
+header {
+    background: url(Images/background.svg);
+    background-size: cover;
+}
+
+#iconButton {
+    display: none; /* icons */
+    background: url(Images/alublebi.svg) no-repeat;
+    font-size: 54px;
+    width:  400px;
+    height: 100px;
+    border: none;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-nav > li > a {
+    font-weight: bold;
+}
+
+.feature {
+    
+}
+
+.feature > h6 {
+    font-size: 2rem;
+    padding-top: 30px;
+}
+
+.feature > p {
+    font-size: 1.3rem;
+    font-family: 'BPG Nateli', SansSerif;
+}
+
+#two {
+    background: aliceblue;
 }
