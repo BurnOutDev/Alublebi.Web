@@ -1,259 +1,158 @@
-﻿@{
-    ViewBag.Title = "Home Page";
-}
-
-<header id="first">
-    <div class="header-content">
-        <div class="inner">
-            <a href="#one" id="iconButton" class="btn btn-primary-outline btn-xl page-scroll wow fadeInUp m-t-3"></a>
-            <h1>აქცია "მოიყვანე მეგობარი"</h1>
-            <h5 class="wow fadeIn text-normal wow fadeIn"></h5>
+﻿<div class="header">
+    <div class="bg-color">
+        <div class="wrapper" id="header-content">
+            <div class="container">
+                <div class="row">
+                    <div class="banner-info text-center wow fadeIn delay-05s">
+                        <h1 class="bnr-title"></h1>
+                        <h2 class="bnr-sub-title">აქცია "მოიყვანე მეგობარი"</h2>
+                        <p class="bnr-para">მოიყვანე მეგობარი და მიიღე დამატებით 10%-იანი ფასდაკლება ორ ბავშვზე<br></p>
+                        <div class="brn-btn">
+                            <a href="#" class="btn btn-download">რეგისტრაცია</a>
+                            <a href="#" class="btn btn-more">სრულად</a>
+                        </div>
+                        <div class="overlay-detail">
+                            <a href="#feature"><i class="fa fa-angle-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</header>
-
-<section id="two" class="bg-alt">
+</div>
+<!---->
+<!---->
+<section id="feature" class="section-padding wow fadeIn delay-05s">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="mt-0 text-primary">მომსახურება</h2>
-                <hr class="primary">
+            <div class="col-md-12 text-center">
+                <h2 class="service-title pad-bt15">მომსახურება</h2>
             </div>
-        </div>
-    </div>
-    <div class="container wow fadeInUp">
-        <div class="row">
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/preschool.svg" />
-                    <h6 class="text-uppercase">საბავშვო ბაღი</h6>
-                    <p class="text-muted m-b-0">1 წლიდან</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/preschool.svg">
+                    </div>
+                    <h3 class="pad-bt15">საბავშვო ბაღი</h3>
+                    <p>მოიყვანეთ ბავშვი 1 წლის ასაკიდან</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-english wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/english.svg" />
-                    <h6 class="text-uppercase">უცხოენების ცენტრი</h6>
-                    <p class="text-muted m-b-0">შეასწავლეთ ბავშვს ინგლისური</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/balerina.svg">
+                    </div>
+                    <h3 class="pad-bt15">საბალეტო სტუდია</h3>
+                    <p>ბალეტი ხომ ყველა გოგოს ბავშვობის ოცნებაა</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/balerina.svg" />
-                    <h6 class="text-uppercase">საბალეტო სტუდია</h6>
-                    <p class="text-muted m-b-0">შეასწავლეთ ბალეტი ბავშვს თავიდანვე</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/english.svg">
+                    </div>
+                    <h3 class="pad-bt15">უცხოენების ცენტრი</h3>
+                    <p>შეასწავლეთ ბავშვს ინგლისური</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/groups.svg" />
-                    <h6 class="text-uppercase">მოსამზადებელი ჯგუფები</h6>
-                    <p class="text-muted m-b-0">მოამზადეთ ბავშვი ადრეული ასაკიდან</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/groups.svg">
+                    </div>
+                    <h3 class="pad-bt15">მოსამზადებელი ჯგუფები</h3>
+                    <p>მოამზადეთ ბავშვი ადრეული ასაკიდან</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/balerina.svg" />
-                    <h6 class="text-uppercase">ხელოვნება</h6>
-                    <p class="text-muted m-b-0">შეასწავლეთ ხელოვნება ბავშვს თავიდანვე</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/preschool.svg">
+                    </div>
+                    <h3 class="pad-bt15">საბავშვო ბაღი</h3>
+                    <p>მოიყვანეთ ბავშვი 1 წლის ასაკიდან</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/balerina.svg" />
-                    <h6 class="text-uppercase">საკარნავალო გარდერობი</h6>
-                    <p class="text-muted m-b-0">კარნავალები კვირაში ორჯერ</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/balerina.svg">
+                    </div>
+                    <h3 class="pad-bt15">საბალეტო სტუდია</h3>
+                    <p>ბალეტი ხომ ყველა გოგოს ბავშვობის ოცნებაა</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/groups.svg" />
-                    <h6 class="text-uppercase">მოსამზადებელი ჯგუფები</h6>
-                    <p class="text-muted m-b-0">მოამზადეთ ბავშვი ადრეული ასაკიდან</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/english.svg">
+                    </div>
+                    <h3 class="pad-bt15">უცხოენების ცენტრი</h3>
+                    <p>შეასწავლეთ ბავშვს ინგლისური</p>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-3 text-center">
-                <div class="feature">
-                    <img class="option-preschool wow fadeIn" data-wow-delay=".1s" src="~/Content/Images/Options/balerina.svg" />
-                    <h6 class="text-uppercase">ხელოვნება</h6>
-                    <p class="text-muted m-b-0">შეასწავლეთ ხელოვნება ბავშვს თავიდანვე</p>
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="wrap-item text-center">
+                    <div class="item-img">
+                        <img src="~/Content/Images/Options/groups.svg">
+                    </div>
+                    <h3 class="pad-bt15">მოსამზადებელი ჯგუფები</h3>
+                    <p>მოამზადეთ ბავშვი ადრეული ასაკიდან</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<section id="three">
-    <div class="container-fluid">
-        <h5 class="text-primary text-center text-uppercase">Now there are 5 Breakpoints</h5>
-        <p class="text-center"><small>To accomodate a variety of devices and screen widths</small></p>
-        
+<!---->
+<section id="contact" class="section-padding wow fadeInUp delay-05s">
+    <div class="container">
         <div class="row">
-            <div class="col-10 offset-1">
-                <div class="row">
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/1.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/1.jpg">view</a>
-                                </h4>
+            <div class="col-md-12 text-center">
+                <h2 class="service-title pad-bt15">კონტაქტი</h2>
+                <p class="sub-title pad-bt15"></p>
+                <hr class="bottom-line white-bg">
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="loction-info">
+                    <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>თ. აბულაძის 16<br>შ. ნუცუბიძის 177</p>
+                    <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@alublebi.ge</p>
+                    <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>(032) 2 35 66 88</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="contact-form">
+                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    <div id="errormessage"></div>
+                    <form action="" method="post" role="form" class="contactForm">
+                        <div class="col-md-6 padding-right-zero">
+                            <div class="form-group">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="სახელი" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validation"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/2.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/2.jpg">view</a>
-                                </h4>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="მეილი" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validation"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card card-inverse">
-                            <img src="~/Content/Images/Gallery/3.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/3.jpg">view</a>
-                                </h4>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="თემა" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                                <div class="validation"></div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/4.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/4.jpg">view</a>
-                                </h4>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="შეტყობინება"></textarea>
+                                <div class="validation"></div>
                             </div>
+                            <button type="submit" class="btn btn-primary btn-submit">გაგზავნა</button>
                         </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/5.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/5.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/6.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/6.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/7.jpg" class="card-img img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/7.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/8.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/8.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/3.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/3.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/5.jpg" class="card-img img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/5.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/2.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/2.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/6.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/6.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/8.jpg" class="card-img img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/8.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/1.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/1.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 text-center">
-                        <div class="card">
-                            <img src="~/Content/Images/Gallery/5.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/5.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 offset-xl-0 col-lg-3 offset-lg-0 col-md-4 offset-md-4 col-sm-6 text-center">
-                        <div class="card m-x-auto">
-                            <img src="~/Content/Images/Gallery/8.jpg" class="img-fluid">
-                            <div class="card-img-overlay">
-                                <h4 class="card-title text-center">
-                                    <a class="text-light" href="#galleryModal" data-toggle="modal" data-src="~/Content/Images/Gallery/8.jpg">view</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
+                    </form>
+
                 </div>
             </div>
         </div>
     </div>
-    <br>
 </section>
